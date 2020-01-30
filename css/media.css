@@ -1,0 +1,138 @@
+/* 1601 - 1920px */
+@media screen and (max-width: 1920px) {}
+
+/* 1369 - 1600px */
+@media screen and (max-width: 1600px) {
+    .next {
+        right: 0;
+    }
+}
+
+/* 960px - 1368x */
+@media screen and (max-width: 1368px) {
+    .offer__bg {
+        font-size: 200px;
+    }
+
+    .offer__title {
+        margin-left: 70px;
+        margin-top: 70px;
+        font-size: 40px;
+    }
+
+    .offer__title:after {
+        left: 240px;
+        top: -8px;
+    }
+
+    .offer__text {
+        margin-left: 140px;
+    }
+
+    .next {
+        font-size: 200px;
+        width: 220px;
+        right: 0;
+        top: 48%;
+    }
+
+    .brah {
+        display: none;
+    }
+
+    .service {
+        flex-direction: column;
+    }
+
+    .service__item {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+/* 768px - 960px */
+@media screen and (max-width: 960px) {
+    .next {
+        display: none;
+    }
+
+    .footer {
+        padding: 80px 0;
+    }
+
+    .credits {
+        flex-direction: column;
+    }
+
+    .credits>* {
+        margin-bottom: 20px;
+    }
+}
+
+/* 480px - 768px */
+@media screen and (max-width: 768px) {
+    .header {
+        height: auto;
+        padding-top: 50px;
+    }
+
+    .header .container {
+        height: auto;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+
+    .burger {
+        position: relative;
+    }
+
+    .offer {
+        position: relative;
+        top: auto;
+        left: auto;
+        padding-top: 260px;
+        padding-bottom: 135px;
+    }
+
+    .offer__bg {
+        font-size: 100px;
+        position: relative;
+    }
+
+    .offer__title {
+        margin-top: 35px;
+        font-size: 35px;
+        margin-left: 0;
+        width: auto;
+    }
+
+    .offer__text {
+        margin-left: 0;
+        width: auto;
+    }
+
+    .offer__btn {
+        margin-left: auto;
+    }
+
+    .service__index {
+        left: -30px;
+    }
+}
+
+/* 320 - 480px */
+@media screen and (max-width: 480px) {
+    .services-title__title {
+        font-size: 35px;
+    }
+}
